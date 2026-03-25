@@ -163,7 +163,7 @@ Performs:
 
 ---
 
-## 🔐 Terraform Remote State (Enterprise Feature)
+## 🔐 Terraform Remote State
 
 Supports:
 
@@ -231,14 +231,6 @@ terraform/environments/prod
 ```
 
 Each environment can deploy independent clusters.
-
----
-
-## 📈 Resume Impact Statement
-
-Example usage:
-
-> Designed and implemented an enterprise AWS EKS platform using Terraform, Helm, GitHub Actions, Prometheus, and Grafana with automated backup and monitoring workflows aligned to SRE best practices.
 
 ---
 
