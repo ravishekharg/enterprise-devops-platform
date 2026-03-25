@@ -244,6 +244,3 @@ Planned improvements:
 * AWS Load Balancer Controller integration
 * Cluster Autoscaler enablement
 * Multi-region DR architecture
-
-```
-```
