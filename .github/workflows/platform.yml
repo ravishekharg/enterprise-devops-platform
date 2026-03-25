@@ -20,6 +20,9 @@ jobs:
       run: |
         mkdir -p ~/.kube
         echo "${{ secrets.KUBECONFIG }}" > ~/.kube/config
+        
+    - name: Validate Terraform
+      run: terraform validate
 
     - name: Helm Deploy Platform
       run: bash helm/deploy.sh
