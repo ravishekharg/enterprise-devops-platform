@@ -1,8 +1,0 @@
-Architecture:
-GitHub → GitHub Actions → DockerHub → Kubernetes → AWS EC2
-
-Tech Stack:
-AWS, Terraform, Docker, Kubernetes, CI/CD
-
-Outcome:
-Automated infrastructure provisioning and container deployment pipeline
